@@ -1,11 +1,25 @@
 body {
 	margin: 0;
 	background-color: rgb(208,255,239);
+	justify-content: center;
+	display: flex;
+	text-align: center;
+
+}
+
+.container{
+  border: 1px solid black;
+  box-shadow: 0px 0px 10px;
+  padding: 15px;
+  margin: 20px;
+	width: 500px;
+	/*height: 500px;*/
+  background-color: #ddd;
 }
 
 .main-game {
-	height: 100vh;
-	width: 100vw;
+	/*height: 100vh;
+	width: 100vw;*/
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -19,8 +33,8 @@ body {
 	border: 1px solid #ffffff;
 	background-color: #ffffff;
 	border-radius: 100%;
-	width: 700px;
-	height: 700px;
+	width: 500px;
+	height: 500px;
 }
 
 .blue{
@@ -49,5 +63,40 @@ body {
 
 .selected {
 	opacity: 0.4;
+}
+
+
+@media screen and (max-width:600px){
+	.container{
+		border: 1px solid black;
+		box-shadow: 0px 0px 10px;
+		padding: 10px;
+		margin: 10px;
+		width: 450px;
+		background-color: #ddd;
+	}
+
+	.genius {
+		width: 300px;
+		height: 300px;
+	}
+
+
+}
+
+@media screen and (max-width:360px){
+	.container{
+		border: 1px solid black;
+		box-shadow: 0px 0px 10px;
+		padding: 10px;
+		margin: 10px;
+		width: 250px;
+		background-color: #ddd;
+	}
+
+	.genius {
+		width: 250px;
+		height: 250px;
+	}
 }
 
