@@ -81,7 +81,7 @@ let nextLevel = () => {
 
 //Função para game over
 let gameOver = () => {
-	alert(`Pontuação: ${score}\nVocê perdeu o jogo!\nClique OK para iniciar um novo jogo.`);
+	alert(`Você errou!\nFim do jogo.\nPontuação: ${score}\n.`);
 	order = [];
 	clickedOrder = [];
 
