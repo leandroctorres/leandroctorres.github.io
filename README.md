@@ -8,3 +8,5 @@ Link projetos accessíveis por browser: https://leandroctorres.github.io/
 
 - [Meu Currículo-portifólio](https://leandroctorres.github.io/meu-curriculo-portfolio/index.html)
 - [Clone Netflix](https://leandroctorres.github.io/clone-netflix/index.html)
+- [Projeto Jogo da Velha](https://leandroctorres.github.io/projeto-jogo-da-velha/index.html) 
+- [Projeto Jogo da Memória - Genius](https://leandroctorres.github.io/projeto-jogo-da-memoria-genius/index.html) 
