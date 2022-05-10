@@ -1,0 +1,133 @@
+body {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    background-color: cornflowerblue;
+
+}
+
+.container{
+  border: 1px solid black;
+  box-shadow: 0px 0px 10px;
+  padding: 10px;
+  margin: 10px;
+  background-color: #ddd;
+	position: relative;
+}
+
+.titulo{
+	text-align: center;
+}
+#placar{
+	text-align: left;
+}
+
+.controles{
+	text-align: center;
+	display: flex;
+	flex-flow:row;
+	justify-content: space-between;
+
+}
+.direcoes{
+	padding: 5px;
+  margin: 5px;
+
+	flex-flow:column;
+	align-items: flex-start;
+}
+.acoes{
+	padding: 5px;
+  margin: 5px;
+
+	flex-direction: row;
+	align-items: flex-end;
+}
+
+#main-play-area {
+    background-color: black;
+    background-image: url(img/space.png);
+    height: 450px;
+    width: 450px;
+}
+
+.game-instructions {
+    position: relative;
+    color: white;
+    left: 7rem;
+    top: 0px;
+}
+
+.start-button {
+    position: relative;
+    color: white;
+    top: 9rem;
+    left: 15rem;
+    cursor: pointer;
+}
+
+.player-shooter {
+    position: relative;
+    height: 60px;
+    width: 70px;
+    left: 20px;
+    top: 250px
+}
+
+.laser {
+    position: relative;
+    width: 40px;
+    height: 30px;
+}
+
+.alien {
+    height: 60px;
+    width: 70px;
+    position: relative;
+}
+
+.alien-transition {
+    opacity: 1;
+    transition: opacity 1.5s ease-in-out;
+}
+
+.dead-alien {
+    height: 60px;
+    width: 70px;
+    position: relative;
+    opacity: 0;
+}
+
+button{
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	border: 1px solid rgb(50, 104, 210);
+	background-color: rgb(165, 184, 224);
+	color: rgb(50, 104, 210);
+	font-size: 16pt;
+	font-weight: 50;
+	text-align: center;
+}
+
+@media screen and (max-width:600px){
+	.container{
+		border: 1px solid black;
+		box-shadow: 0px 0px 10px;
+		padding: 10px;
+		margin: 10px;
+		width: 450px;
+		background-color: #ddd;
+	}
+
+	.genius {
+		width: 300px;
+		height: 300px;
+	}
+
+
+}

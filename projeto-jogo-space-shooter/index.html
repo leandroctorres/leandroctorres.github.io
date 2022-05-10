@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Shooter</title>
+</head>
+<body>
+	<div class="container">
+		<div class="titulo">
+			<h1>Jogo Space Shooter</h1>
+		</div>
+		<div id="placar">
+			Pontuação: <span id="pontuacao">0</span>
+		</div>
+    <div id="main-play-area">
+        <img class="player-shooter" src="./img/hero.png" alt="hero">
+        <h5 class="game-instructions">
+            Não deixe os inimigos invadirem o seu planeta!
+        </h5>
+        <div class="start-button">
+            <h1>START</h1>
+        </div>
+    </div>
+
+		<div class="controles">
+			<div class="direcoes">
+				<div>
+					<button id="btn_subir" name="subir">
+						<i class="fa-solid fa-up-long"></i>
+					</button>
+				</div>
+				<div>
+					<span> Direções </span>
+				</div>
+
+				<div>
+					<button id="btn_descer" name="descer">
+						<i class="fa-solid fa-down-long"></i>
+					</button>
+				</div>
+
+			</div>
+
+
+			<div class="acoes">
+				<div>
+					<button id="btn_atirar" name="atirar">
+						<i class="fa-solid fa-gun"></i>
+					</button>
+				</div>
+				<div>
+					<span> Atirar </span>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	  <script src="https://kit.fontawesome.com/82304cca10.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
