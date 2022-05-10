@@ -1,5 +1,4 @@
 body {
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -108,6 +107,19 @@ body {
     opacity: 0;
 }
 
+.btn{
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	background-color: rgb(165, 184, 224);
+	color: rgb(50, 104, 210);
+	font-size: 32pt;
+	font-weight: 50;
+	text-align:center;
+	cursor: pointer;
+
+
+}
 button{
 	height: 50px;
 	width: 50px;
