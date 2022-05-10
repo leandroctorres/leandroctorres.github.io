@@ -108,26 +108,13 @@ body {
 }
 
 .btn{
-	height: 50px;
-	width: 50px;
-	border-radius: 50%;
+	height: 70px;
+	width: 120px;
+	border-radius: 40%;
 	background-color: rgb(165, 184, 224);
 	color: rgb(50, 104, 210);
-	font-size: 32pt;
-	font-weight: 50;
+	font-size: 45pt;
+	font-weight:200;
 	text-align:center;
 	cursor: pointer;
-
-
-}
-button{
-	height: 50px;
-	width: 50px;
-	border-radius: 50%;
-	border: 1px solid rgb(50, 104, 210);
-	background-color: rgb(165, 184, 224);
-	color: rgb(50, 104, 210);
-	font-size: 16pt;
-	font-weight: 50;
-	text-align: center;
 }
