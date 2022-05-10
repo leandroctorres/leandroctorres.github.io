@@ -42,8 +42,7 @@ function moveUp() {
 //função de descer
 function moveDown() {
     let topPosition = getComputedStyle(yourShip).getPropertyValue('top');
-
-    if(topPosition === "370px"){
+    if(topPosition === "340px"){
         return
     } else {
         let position = parseInt(topPosition);
@@ -100,7 +99,7 @@ function createAliens() {
     newAlien.src = alienSprite;
     newAlien.classList.add('alien');
     newAlien.classList.add('alien-transition');
-    newAlien.style.left = '370px';
+    newAlien.style.left = '340px';
     newAlien.style.top = `${Math.floor(Math.random() * 330) + 30}px`;
     playArea.appendChild(newAlien);
     moveAlien(newAlien);
